@@ -228,7 +228,7 @@ class GChartExtension extends \Twig_Extension {
      * gchart_table definition
      */
     public function gchartTable($data, $id, $config = null, $events = array()) {
-        return $this->renderTemplate('gChartTemplate', array('chartType' => 'Table', 'data' => $data, 'id' => $id, 'config' => $config, 'events' => $events ));
+        return $this->renderTemplate('gChartTemplate', array('chartType' => 'DataTable', 'data' => $data, 'id' => $id, 'config' => $config, 'events' => $events ));
     }
     
     /**
